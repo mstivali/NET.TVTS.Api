@@ -16,10 +16,10 @@ namespace CEN4020.TVTS.Services
                 var vehicle = new vehicle()
                 {
                     Id = Guid.NewGuid(),
-                    ModelName = "4Runner",
-                    StyleId = "1",
-                    StyleTrim = "Deluxe",
-                    Color = "Red"
+                    ModelName = "Yaris",
+                    StyleId = "2",
+                    StyleTrim = "Basic",
+                    Color = "Blue"
                 };
 
                 context.vehicles.Add(vehicle);
