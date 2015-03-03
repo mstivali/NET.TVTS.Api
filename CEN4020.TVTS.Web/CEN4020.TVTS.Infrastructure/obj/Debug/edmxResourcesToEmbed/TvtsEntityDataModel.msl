@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TvtsDbModelStoreContainer" CdmEntityContainer="TvtsEntity">
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="TvtsDbModel.customer">
+        <MappingFragment StoreEntitySet="customers">
+          <ScalarProperty Name="idcustomers" ColumnName="idcustomers" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

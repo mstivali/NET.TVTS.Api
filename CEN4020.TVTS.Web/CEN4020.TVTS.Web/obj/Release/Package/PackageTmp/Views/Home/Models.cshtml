@@ -1,0 +1,37 @@
+﻿@model CEN4020.TVTS.Api.Models.CarModelsModel
+
+@{
+    ViewBag.Title = "Models";
+}
+
+<h2>Models</h2>
+
+<table id="models" class="display">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var model in Model.Models)
+        {
+            <tr>
+                <td>@(model.Name)</td>
+                <td>@Html.ActionLink("See Available Styles", "Styles", new { name = model.Name, id = model.Identification })</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+
+        $(document).ready(function() {
+            $("#models").DataTable();
+        });
+
+    </script>
+
+}

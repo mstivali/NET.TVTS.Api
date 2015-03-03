@@ -1,0 +1,12 @@
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\CEN4020.TVTS.Infrastructure.dll.config
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\CEN4020.TVTS.Infrastructure.dll
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\CEN4020.TVTS.Infrastructure.pdb
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\EntityFramework.dll
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\MySql.Data.dll
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\MySql.Data.Entity.EF6.dll
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\EntityFramework.xml
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Release\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Release\CEN4020.TVTS.Infrastructure.dll
+C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Release\CEN4020.TVTS.Infrastructure.pdb

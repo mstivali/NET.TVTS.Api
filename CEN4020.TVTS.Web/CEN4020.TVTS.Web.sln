@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEN4020.TVTS.Api", "CEN4020.TVTS.Web\CEN4020.TVTS.Api.csproj", "{D56DAA6B-A139-4A59-B272-A797FB0C4F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEN4020.TVTS.Domain", "CEN4020.TVTS.Domain\CEN4020.TVTS.Domain.csproj", "{B425BF24-E235-46CE-8DA6-4F2876BDCA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEN4020.TVTS.Api.Models", "CEN4020.TVTS.Api.Models\CEN4020.TVTS.Api.Models.csproj", "{2310BAD9-A97D-43FF-A904-B581733EFED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEN4020.TVTS.Infrastructure", "CEN4020.TVTS.Infrastructure\CEN4020.TVTS.Infrastructure.csproj", "{F32561AF-95BF-4AAE-A0C0-354935B58963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEN4020.TVTS.Services", "CEN4020.TVTS.Services\CEN4020.TVTS.Services.csproj", "{0344E1E8-16C5-4458-A16C-857EDE098F5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56DAA6B-A139-4A59-B272-A797FB0C4F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56DAA6B-A139-4A59-B272-A797FB0C4F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56DAA6B-A139-4A59-B272-A797FB0C4F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56DAA6B-A139-4A59-B272-A797FB0C4F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B425BF24-E235-46CE-8DA6-4F2876BDCA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B425BF24-E235-46CE-8DA6-4F2876BDCA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B425BF24-E235-46CE-8DA6-4F2876BDCA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B425BF24-E235-46CE-8DA6-4F2876BDCA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2310BAD9-A97D-43FF-A904-B581733EFED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2310BAD9-A97D-43FF-A904-B581733EFED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2310BAD9-A97D-43FF-A904-B581733EFED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2310BAD9-A97D-43FF-A904-B581733EFED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32561AF-95BF-4AAE-A0C0-354935B58963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32561AF-95BF-4AAE-A0C0-354935B58963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32561AF-95BF-4AAE-A0C0-354935B58963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32561AF-95BF-4AAE-A0C0-354935B58963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0344E1E8-16C5-4458-A16C-857EDE098F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0344E1E8-16C5-4458-A16C-857EDE098F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0344E1E8-16C5-4458-A16C-857EDE098F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0344E1E8-16C5-4458-A16C-857EDE098F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

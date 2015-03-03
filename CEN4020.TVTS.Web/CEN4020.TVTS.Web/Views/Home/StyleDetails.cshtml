@@ -1,0 +1,30 @@
+﻿@model CEN4020.TVTS.Api.Models.StyleDetailsModel
+
+@{
+    ViewBag.Title = "StyleDetails";
+}
+
+<h2>Style Details</h2>
+
+<h3>Available Engines:</h3>
+
+@foreach(var engine in Model.EngineDetails.Engines)
+{
+    <p>Name: @(engine.Name)</p>
+    <p>EquipmentItem Type: @(engine.EquipmentType)</p>
+    <p>Availability: @(engine.Availability)</p>
+    <p>Compression Ratio:@(engine.CompressionRatio)</p>
+    <p>Cylinders: @(engine.Cylinder)</p>
+    <p>Size: @(engine.Size)</p>
+    <p>Displacement: @(engine.Displacement)</p>
+    <p>Configuration: @(engine.Configuration)</p>
+    <p>Fuel Type: @(engine.FuelType)</p>
+    <p>Horsepower: @(engine.Horsepower)</p>
+    <p>Torque: @(engine.Torque)</p>
+    <p>Total Valves: @(engine.TotalValves)</p>
+    <p>Manufactrurer Engine Code: @(engine.ManufacturerEngineCode)</p>
+    <p>Type: @(engine.Type)</p>
+    <p>Code: @(engine.Code)</p>
+    <p>Compressor Type: @(engine.CompressorType)</p>
+}
+

@@ -1,0 +1,47 @@
+﻿@model CEN4020.TVTS.Api.Models.StylesModel
+
+@{
+    ViewBag.Title = "Styles";
+}
+
+<h2>Styles</h2>
+
+<table id="styles" class="display">
+    <thead>
+        <tr>
+            <th>Model Name</th>
+            <th>Style Name</th>
+            <th>Body</th>
+            <th>Trim</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var style in Model.Styles)
+        {
+            <tr>
+                <td>@(style.Submodel.ModelName)</td>
+                <td>@(style.Name)</td>
+                <td>@(style.Submodel.Body)</td>
+                <td>@(style.Trim)</td>
+                <td>@Html.ActionLink("View Details", "StyleDetails", new { styleId = style.Id })</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section scripts{
+    <script>
+
+        $(document).ready(function () {
+            $("#styles").DataTable();
+        });
+
+    </script>
+
+
+
+
+
+}
