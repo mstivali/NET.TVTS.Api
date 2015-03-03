@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="TvtsDbEntities-Web.config Connection String" description="TvtsDbEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/TvtsDataModel.csdl|res://*/TvtsDataModel.ssdl|res://*/TvtsDataModel.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=us-cdbr-azure-east-b.cloudapp.net;user id=bdfdd1e81e01f8;password=a7820a0f;database=TvtsDb&quot;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Owner\\Desktop\\NET\.TVTS\\CEN4020\.TVTS\.Web\\CEN4020\.TVTS\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TvtsDbEntities']/@connectionString" />
-  </parameter>
-  <parameter name="TvtsEntity-Web.config Connection String" description="TvtsEntity Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/TvtsEntityDataModel.csdl|res://*/TvtsEntityDataModel.ssdl|res://*/TvtsEntityDataModel.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;sslmode=Required;server=us-cdbr-azure-east-b.cloudapp.net;user id=bdfdd1e81e01f8;password=a7820a0f;database=TvtsDb&quot;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Owner\\Desktop\\NET\.TVTS\\CEN4020\.TVTS\.Web\\CEN4020\.TVTS\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TvtsEntity']/@connectionString" />
+  <parameter name="TvtsDataEntities-Web.config Connection String" description="TvtsDataEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/TvtsDataModel.csdl|res://*/TvtsDataModel.ssdl|res://*/TvtsDataModel.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=us-cdbr-azure-west-a.cloudapp.net;user id=bdc2d61946be35;password=1dd93641;persistsecurityinfo=True;database=StivaliDevDb&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Owner\\Documents\\GitHub\\NET\.TVTS\.Api\\CEN4020\.TVTS\.Web\\CEN4020\.TVTS\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TvtsDataEntities']/@connectionString" />
   </parameter>
 </parameters>

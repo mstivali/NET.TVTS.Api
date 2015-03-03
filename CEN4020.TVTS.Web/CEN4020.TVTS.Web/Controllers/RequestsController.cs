@@ -1,8 +1,10 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Helpers;
 using System.Web.Http;
 using CEN4020.TVTS.Api.Models;
 using CEN4020.TVTS.Services;
+using Newtonsoft.Json.Linq;
 
 namespace CEN4020.TVTS.Web.Controllers
 {
@@ -66,5 +68,17 @@ namespace CEN4020.TVTS.Web.Controllers
             return Ok(vehicleSpecs);
 
         }
+
+        [HttpPost]
+        [Route("api/vehicle/save")]
+        public IHttpActionResult SaveVehicleToInventory([FromBody] object inventoryOrder)
+        {
+            //var inventoryService = new InventoryService();
+
+            //inventoryService.AddVehicleToInventory(inventoryOrder);
+
+            return Ok(inventoryOrder);
+        }
+
     }
 }

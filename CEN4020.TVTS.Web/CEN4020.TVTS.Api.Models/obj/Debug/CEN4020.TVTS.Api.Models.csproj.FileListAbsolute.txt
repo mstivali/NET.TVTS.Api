@@ -52,3 +52,17 @@ C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Deb
 C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Debug\CEN4020.TVTS.Api.Models.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Debug\CEN4020.TVTS.Api.Models.dll
 C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Debug\CEN4020.TVTS.Api.Models.pdb
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\CEN4020.TVTS.Api.Models.dll.config
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\CEN4020.TVTS.Api.Models.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\CEN4020.TVTS.Api.Models.pdb
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\CEN4020.TVTS.Domain.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\MySql.Data.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\CEN4020.TVTS.Domain.pdb
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Debug\CEN4020.TVTS.Api.Models.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Debug\CEN4020.TVTS.Api.Models.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Debug\CEN4020.TVTS.Api.Models.pdb

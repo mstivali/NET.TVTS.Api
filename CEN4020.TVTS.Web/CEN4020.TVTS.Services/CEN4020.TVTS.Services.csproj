@@ -61,6 +61,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CEN4020.TVTS.Api.Models\CEN4020.TVTS.Api.Models.csproj">
+      <Project>{2310BAD9-A97D-43FF-A904-B581733EFED3}</Project>
+      <Name>CEN4020.TVTS.Api.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CEN4020.TVTS.Domain\CEN4020.TVTS.Domain.csproj">
       <Project>{B425BF24-E235-46CE-8DA6-4F2876BDCA4F}</Project>
       <Name>CEN4020.TVTS.Domain</Name>

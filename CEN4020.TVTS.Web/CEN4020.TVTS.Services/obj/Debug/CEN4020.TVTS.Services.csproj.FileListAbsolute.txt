@@ -79,3 +79,5 @@ C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Servi
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Services\obj\Debug\CEN4020.TVTS.Services.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Services\obj\Debug\CEN4020.TVTS.Services.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Services\obj\Debug\CEN4020.TVTS.Services.pdb
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Services\bin\Debug\CEN4020.TVTS.Api.Models.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Services\bin\Debug\CEN4020.TVTS.Api.Models.pdb

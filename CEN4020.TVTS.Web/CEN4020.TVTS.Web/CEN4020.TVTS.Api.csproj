@@ -255,6 +255,7 @@
     <Content Include="Content\DataTables-1.10.4\css\dataTables.responsive.scss" />
     <Content Include="Content\DataTables-1.10.4\css\dataTables.jqueryui.scss" />
     <None Include="Properties\PublishProfiles\tvts-api.pubxml" />
+    <None Include="Properties\PublishProfiles\tvts.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataTables-1.10.4\dataTables.autoFill.js" />
     <Content Include="Scripts\DataTables-1.10.4\dataTables.autoFill.min.js" />
