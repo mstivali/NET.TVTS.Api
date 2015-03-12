@@ -5,9 +5,11 @@ using System.Web.Http;
 using CEN4020.TVTS.Api.Models;
 using CEN4020.TVTS.Services;
 using Newtonsoft.Json.Linq;
+using System.Web.Http.Cors;
 
 namespace CEN4020.TVTS.Web.Controllers
 {
+    [EnableCors (origins:"*",headers:"*", methods:"*")]
     public class RequestsController : ApiController
     {
         [HttpGet]
@@ -71,13 +73,13 @@ namespace CEN4020.TVTS.Web.Controllers
 
         [HttpPost]
         [Route("api/vehicle/save")]
-        public IHttpActionResult SaveVehicleToInventory([FromBody] object inventoryOrder)
+        public IHttpActionResult SaveVehicleToInventory([FromBody] InventoryOrder inventoryOrder)
         {
-            //var inventoryService = new InventoryService();
+            var inventoryService = new InventoryService();
 
-            //inventoryService.AddVehicleToInventory(inventoryOrder);
+            inventoryService.AddVehicleToInventory(inventoryOrder);
 
-            return Ok(inventoryOrder);
+            return Ok();
         }
 
     }

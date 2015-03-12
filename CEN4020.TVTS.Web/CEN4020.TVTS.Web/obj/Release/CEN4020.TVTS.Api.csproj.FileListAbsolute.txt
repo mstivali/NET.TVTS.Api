@@ -90,3 +90,6 @@ C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\b
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\obj\Release\CEN4020.TVTS.Api.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\obj\Release\CEN4020.TVTS.Web.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\obj\Release\CEN4020.TVTS.Web.pdb
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Cors.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Http.Cors.dll
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Http.Cors.xml
