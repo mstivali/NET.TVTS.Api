@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -18,6 +19,17 @@ namespace CEN4020.TVTS.Services
         private const string Make = "toyota";
         private const string InventoryYear = "2015";
         private const string SubmodelType = "sedan";
+
+        public object GetCarsJson()
+        {
+            var carsJsonPath = HttpContext.Current.Server.MapPath("~/Json/cars.json");
+
+            var allText = File.ReadAllText(carsJsonPath);
+
+            var jsonObject = JsonConvert.DeserializeObject(allText);
+
+            return jsonObject;
+        } 
 
         public async Task<EdmundsModelsList> GetEdmundsModelsData()
         {

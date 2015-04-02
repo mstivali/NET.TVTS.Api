@@ -287,3 +287,14 @@ C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\o
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Cors.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Http.Cors.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Http.Cors.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\EntityFramework.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\MySql.Data.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Cors.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Http.Cors.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\CEN4020.TVTS.Infrastructure.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\EntityFramework.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\System.Web.Http.Cors.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Web\bin\CEN4020.TVTS.Infrastructure.pdb

@@ -42,3 +42,11 @@ C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infra
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.pdb
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\CEN4020.TVTS.Infrastructure.dll.config
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\MySql.Data.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache

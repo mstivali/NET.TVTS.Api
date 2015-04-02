@@ -1,10 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using System.Web.Helpers;
 using System.Web.Http;
+using System.Web.Http.Results;
 using CEN4020.TVTS.Api.Models;
 using CEN4020.TVTS.Services;
-using Newtonsoft.Json.Linq;
 using System.Web.Http.Cors;
 
 namespace CEN4020.TVTS.Web.Controllers
@@ -17,6 +16,18 @@ namespace CEN4020.TVTS.Web.Controllers
         public Task<IHttpActionResult> IsApiOnline()
         {
             return Task.FromResult<IHttpActionResult>(Ok("TVTS API is online"));
+        }
+
+        [HttpGet]
+        [Route("api/cars")]
+        public OkNegotiatedContentResult<object> GetCarsJson()
+        {
+            var edmundsService = new EdmundsService();
+
+            var carsJson = edmundsService.GetCarsJson();
+
+            return Ok(carsJson);
+
         }
 
         [HttpGet]
