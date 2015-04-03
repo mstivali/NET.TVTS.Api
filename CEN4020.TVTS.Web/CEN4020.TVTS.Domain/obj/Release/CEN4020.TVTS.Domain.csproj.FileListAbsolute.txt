@@ -10,3 +10,15 @@ C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release
 C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Release\CEN4020.TVTS.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Release\CEN4020.TVTS.Domain.dll
 C:\Users\Owner\Desktop\NET.TVTS\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Release\CEN4020.TVTS.Domain.pdb
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\CEN4020.TVTS.Domain.dll.config
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\CEN4020.TVTS.Domain.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\CEN4020.TVTS.Domain.pdb
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\EntityFramework.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\MySql.Data.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\MySql.Data.Entity.EF6.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\EntityFramework.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Release\CEN4020.TVTS.Domain.csprojResolveAssemblyReference.cache
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Release\CEN4020.TVTS.Domain.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Release\CEN4020.TVTS.Domain.pdb

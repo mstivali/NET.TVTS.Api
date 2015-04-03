@@ -265,6 +265,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Json\cars.json" />
+    <None Include="Properties\PublishProfiles\tvts %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\tvts-api.pubxml" />
     <None Include="Properties\PublishProfiles\tvts.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -324,6 +325,10 @@
     <ProjectReference Include="..\CEN4020.TVTS.Domain\CEN4020.TVTS.Domain.csproj">
       <Project>{B425BF24-E235-46CE-8DA6-4F2876BDCA4F}</Project>
       <Name>CEN4020.TVTS.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CEN4020.TVTS.Infrastructure\CEN4020.TVTS.Infrastructure.csproj">
+      <Project>{f32561af-95bf-4aae-a0c0-354935b58963}</Project>
+      <Name>CEN4020.TVTS.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\CEN4020.TVTS.Services\CEN4020.TVTS.Services.csproj">
       <Project>{0344E1E8-16C5-4458-A16C-857EDE098F5E}</Project>

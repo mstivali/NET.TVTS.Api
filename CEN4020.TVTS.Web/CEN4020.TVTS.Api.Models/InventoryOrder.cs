@@ -8,9 +8,11 @@ namespace CEN4020.TVTS.Api.Models
 {
     public class InventoryOrder
     {
+        public string ModelNameId { get; set; }
         public string ModelName { get; set; }
         public string StyleTrim { get; set; }
         public string StyleId { get; set; }
         public string Color { get; set; }
+        public string Options { get; set; }
     }
 }

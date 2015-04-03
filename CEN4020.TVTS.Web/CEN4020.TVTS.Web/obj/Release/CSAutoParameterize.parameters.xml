@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="TvtsDataEntities-Web.config Connection String" description="TvtsDataEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/TvtsDataModel.csdl|res://*/TvtsDataModel.ssdl|res://*/TvtsDataModel.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=us-cdbr-azure-west-a.cloudapp.net;user id=bdc2d61946be35;password=1dd93641;persistsecurityinfo=True;database=StivaliDevDb&quot;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Owner\\Documents\\GitHub\\NET\.TVTS\.Api\\CEN4020\.TVTS\.Web\\CEN4020\.TVTS\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TvtsDataEntities']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\user594\\Desktop\\GitHub\\NET\.TVTS\.Api\\CEN4020\.TVTS\.Web\\CEN4020\.TVTS\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TvtsDataEntities']/@connectionString" />
   </parameter>
 </parameters>

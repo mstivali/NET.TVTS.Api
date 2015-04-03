@@ -26,3 +26,17 @@ C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.M
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Release\CEN4020.TVTS.Api.Models.csprojResolveAssemblyReference.cache
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Release\CEN4020.TVTS.Api.Models.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Release\CEN4020.TVTS.Api.Models.pdb
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\CEN4020.TVTS.Api.Models.dll.config
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\CEN4020.TVTS.Api.Models.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\CEN4020.TVTS.Api.Models.pdb
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\CEN4020.TVTS.Domain.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\EntityFramework.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\MySql.Data.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\MySql.Data.Entity.EF6.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\CEN4020.TVTS.Domain.pdb
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\EntityFramework.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Release\CEN4020.TVTS.Api.Models.csprojResolveAssemblyReference.cache
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Release\CEN4020.TVTS.Api.Models.dll
+C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Api.Models\obj\Release\CEN4020.TVTS.Api.Models.pdb

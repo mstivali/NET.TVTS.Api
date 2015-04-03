@@ -93,5 +93,16 @@ namespace CEN4020.TVTS.Web.Controllers
             return Ok();
         }
 
+        [HttpGet]
+        [Route("api/vehicles")]
+        public IHttpActionResult GetVehicles()
+        {
+            var inventoryService = new InventoryService();
+
+            var vehiclesList = inventoryService.GetInventory();
+
+            return Ok(vehiclesList);
+        }
+
     }
 }
