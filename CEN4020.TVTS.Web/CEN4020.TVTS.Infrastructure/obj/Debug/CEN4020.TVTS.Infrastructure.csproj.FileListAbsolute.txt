@@ -49,4 +49,3 @@ C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infra
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.dll
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.pdb
-C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache

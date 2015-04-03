@@ -59,4 +59,3 @@ C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domai
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.dll
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.pdb
-C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.csprojResolveAssemblyReference.cache

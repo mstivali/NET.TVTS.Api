@@ -24,7 +24,6 @@ namespace CEN4020.TVTS.Services
                     StyleId = inventoryOrder.StyleId,
                     StyleTrim = inventoryOrder.StyleTrim,
                     Color = inventoryOrder.Color,
-                    Options = inventoryOrder.Options,
                     Purchased = 0,
                 };
 

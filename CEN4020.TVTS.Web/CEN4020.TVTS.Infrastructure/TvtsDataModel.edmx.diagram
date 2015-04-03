@@ -5,7 +5,7 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="c92de8d1c7064df8a50d931b60f64497" Name="Diagram1">
-        <EntityTypeShape EntityType="TvtsDbContext.vehicle" Width="1.5" PointX="4.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TvtsDbContext.vehicle" Width="1.5" PointX="4.25" PointY="0.625" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

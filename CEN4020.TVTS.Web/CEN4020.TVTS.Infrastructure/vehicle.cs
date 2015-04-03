@@ -19,7 +19,6 @@ namespace CEN4020.TVTS.Infrastructure
         public string StyleTrim { get; set; }
         public string StyleId { get; set; }
         public string Color { get; set; }
-        public string Options { get; set; }
         public int Purchased { get; set; }
         public Nullable<System.Guid> Customer { get; set; }
         public string ModelIdName { get; set; }

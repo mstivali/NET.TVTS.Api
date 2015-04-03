@@ -9,7 +9,6 @@
     <Property Name="StyleTrim" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="StyleId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Color" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Options" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
     <Property Name="Purchased" Type="Int32" Nullable="false" />
     <Property Name="Customer" Type="Guid" />
     <Property Name="ModelIdName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />

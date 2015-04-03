@@ -13,11 +13,10 @@
           <Property Name="ModelName" Type="varchar" MaxLength="45" Nullable="false" />
           <Property Name="StyleTrim" Type="varchar" MaxLength="45" Nullable="false" />
           <Property Name="StyleId" Type="varchar" MaxLength="45" Nullable="false" />
-          <Property Name="Color" Type="text" Nullable="false" />
-          <Property Name="Options" Type="text" Nullable="false" />
           <Property Name="Purchased" Type="int" Nullable="false" />
           <Property Name="Customer" Type="guid" />
           <Property Name="ModelIdName" Type="varchar" MaxLength="45" />
+          <Property Name="Color" Type="varchar" MaxLength="45" Nullable="false" />
         </EntityType>
         <EntityContainer Name="TvtsDbContextStoreContainer">
           <EntitySet Name="vehicle" EntityType="Self.vehicle" Schema="stivalidevdb" store:Type="Tables" />
@@ -35,7 +34,6 @@
           <Property Name="StyleTrim" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="StyleId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Color" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Options" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
           <Property Name="Purchased" Type="Int32" Nullable="false" />
           <Property Name="Customer" Type="Guid" />
           <Property Name="ModelIdName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
@@ -55,7 +53,6 @@
                 <ScalarProperty Name="ModelIdName" ColumnName="ModelIdName" />
                 <ScalarProperty Name="Customer" ColumnName="Customer" />
                 <ScalarProperty Name="Purchased" ColumnName="Purchased" />
-                <ScalarProperty Name="Options" ColumnName="Options" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="ModelName" ColumnName="ModelName" />
                 <ScalarProperty Name="StyleTrim" ColumnName="StyleTrim" />

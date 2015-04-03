@@ -8,11 +8,10 @@
     <Property Name="ModelName" Type="varchar" MaxLength="45" Nullable="false" />
     <Property Name="StyleTrim" Type="varchar" MaxLength="45" Nullable="false" />
     <Property Name="StyleId" Type="varchar" MaxLength="45" Nullable="false" />
-    <Property Name="Color" Type="text" Nullable="false" />
-    <Property Name="Options" Type="text" Nullable="false" />
     <Property Name="Purchased" Type="int" Nullable="false" />
     <Property Name="Customer" Type="guid" />
     <Property Name="ModelIdName" Type="varchar" MaxLength="45" />
+    <Property Name="Color" Type="varchar" MaxLength="45" Nullable="false" />
   </EntityType>
   <EntityContainer Name="TvtsDbContextStoreContainer">
     <EntitySet Name="vehicle" EntityType="Self.vehicle" Schema="stivalidevdb" store:Type="Tables" />
