@@ -4,6 +4,10 @@
     <EntitySetMapping Name="vehicles">
       <EntityTypeMapping TypeName="TvtsDbContext.vehicle">
         <MappingFragment StoreEntitySet="vehicle">
+          <ScalarProperty Name="ModelIdName" ColumnName="ModelIdName" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="Purchased" ColumnName="Purchased" />
+          <ScalarProperty Name="Options" ColumnName="Options" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="ModelName" ColumnName="ModelName" />
           <ScalarProperty Name="StyleTrim" ColumnName="StyleTrim" />

@@ -14,17 +14,18 @@ namespace CEN4020.TVTS.Services
     {
         public void AddVehicleToInventory(InventoryOrder inventoryOrder)
         {
-            
-
             using (var context = new TvtsDataEntities())
             {
                 var vehicle = new vehicle()
                 {
                     Id = Guid.NewGuid(),
+                    ModelIdName = inventoryOrder.ModelIdName,
                     ModelName = inventoryOrder.ModelName,
                     StyleId = inventoryOrder.StyleId,
                     StyleTrim = inventoryOrder.StyleTrim,
-                    Color = inventoryOrder.Color
+                    Color = inventoryOrder.Color,
+                    Options = inventoryOrder.Options,
+                    Purchased = 0,
                 };
 
                 context.vehicles.Add(vehicle);
