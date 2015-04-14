@@ -1,17 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="TvtsDbContextStoreContainer" CdmEntityContainer="TvtsDataEntities">
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="TvtsDbContext.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="maintenances">
+      <EntityTypeMapping TypeName="TvtsDbContext.maintenance">
+        <MappingFragment StoreEntitySet="maintenance">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="VehicleId" ColumnName="VehicleId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="vehicles">
       <EntityTypeMapping TypeName="TvtsDbContext.vehicle">
         <MappingFragment StoreEntitySet="vehicle">
-          <ScalarProperty Name="ModelIdName" ColumnName="ModelIdName" />
-          <ScalarProperty Name="Customer" ColumnName="Customer" />
-          <ScalarProperty Name="Purchased" ColumnName="Purchased" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="ModelName" ColumnName="ModelName" />
-          <ScalarProperty Name="StyleTrim" ColumnName="StyleTrim" />
-          <ScalarProperty Name="StyleId" ColumnName="StyleId" />
+          <ScalarProperty Name="DatePurchased" ColumnName="DatePurchased" />
           <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="ModelIdName" ColumnName="ModelIdName" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Purchased" ColumnName="Purchased" />
+          <ScalarProperty Name="StyleId" ColumnName="StyleId" />
+          <ScalarProperty Name="StyleTrim" ColumnName="StyleTrim" />
+          <ScalarProperty Name="ModelName" ColumnName="ModelName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

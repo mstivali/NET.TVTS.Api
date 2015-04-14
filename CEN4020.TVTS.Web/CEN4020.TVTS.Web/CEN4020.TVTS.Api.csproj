@@ -266,7 +266,6 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Json\cars.json" />
     <None Include="Properties\PublishProfiles\tvts %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\tvts-api.pubxml" />
     <None Include="Properties\PublishProfiles\tvts.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataTables-1.10.4\dataTables.autoFill.js" />

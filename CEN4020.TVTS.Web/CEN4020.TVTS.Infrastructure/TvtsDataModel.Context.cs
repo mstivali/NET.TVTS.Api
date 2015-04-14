@@ -25,6 +25,8 @@ namespace CEN4020.TVTS.Infrastructure
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<customer> customers { get; set; }
+        public virtual DbSet<maintenance> maintenances { get; set; }
         public virtual DbSet<vehicle> vehicles { get; set; }
     }
 }

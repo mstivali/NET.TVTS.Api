@@ -5,6 +5,26 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="TvtsDbContext.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="customer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="guid" Nullable="false" />
+          <Property Name="Firstname" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="Lastname" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="Phone" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="45" Nullable="false" />
+        </EntityType>
+        <EntityType Name="maintenance">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="guid" Nullable="false" />
+          <Property Name="Type" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="Date" Type="datetime" Precision="0" Nullable="false" />
+          <Property Name="VehicleId" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="CustomerId" Type="varchar" MaxLength="45" Nullable="false" />
+        </EntityType>
         <EntityType Name="vehicle">
           <Key>
             <PropertyRef Name="Id" />
@@ -14,50 +34,99 @@
           <Property Name="StyleTrim" Type="varchar" MaxLength="45" Nullable="false" />
           <Property Name="StyleId" Type="varchar" MaxLength="45" Nullable="false" />
           <Property Name="Purchased" Type="int" Nullable="false" />
-          <Property Name="Customer" Type="guid" />
+          <Property Name="CustomerId" Type="guid" />
           <Property Name="ModelIdName" Type="varchar" MaxLength="45" />
           <Property Name="Color" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="DatePurchased" Type="datetime" Precision="0" />
         </EntityType>
         <EntityContainer Name="TvtsDbContextStoreContainer">
+          <EntitySet Name="customer" EntityType="Self.customer" Schema="stivalidevdb" store:Type="Tables" />
+          <EntitySet Name="maintenance" EntityType="Self.maintenance" Schema="stivalidevdb" store:Type="Tables" />
           <EntitySet Name="vehicle" EntityType="Self.vehicle" Schema="stivalidevdb" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="TvtsDbContext" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="TvtsDataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="customers" EntityType="TvtsDbContext.customer" />
+          <EntitySet Name="maintenances" EntityType="TvtsDbContext.maintenance" />
+          <EntitySet Name="vehicles" EntityType="TvtsDbContext.vehicle" />
+        </EntityContainer>
+        <EntityType Name="customer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Firstname" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Lastname" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Phone" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="maintenance">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Type" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+          <Property Name="VehicleId" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="CustomerId" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+        </EntityType>
         <EntityType Name="vehicle">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Guid" Nullable="false" />
-          <Property Name="ModelName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="StyleTrim" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="StyleId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Color" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ModelName" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="StyleTrim" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="StyleId" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
           <Property Name="Purchased" Type="Int32" Nullable="false" />
-          <Property Name="Customer" Type="Guid" />
+          <Property Name="CustomerId" Type="Guid" />
           <Property Name="ModelIdName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="Color" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="DatePurchased" Type="DateTime" />
         </EntityType>
-        <EntityContainer Name="TvtsDataEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="vehicles" EntityType="Self.vehicle" />
-        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="TvtsDbContextStoreContainer" CdmEntityContainer="TvtsDataEntities">
+          <EntitySetMapping Name="customers">
+            <EntityTypeMapping TypeName="TvtsDbContext.customer">
+              <MappingFragment StoreEntitySet="customer">
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+                <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="maintenances">
+            <EntityTypeMapping TypeName="TvtsDbContext.maintenance">
+              <MappingFragment StoreEntitySet="maintenance">
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="VehicleId" ColumnName="VehicleId" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="vehicles">
             <EntityTypeMapping TypeName="TvtsDbContext.vehicle">
               <MappingFragment StoreEntitySet="vehicle">
-                <ScalarProperty Name="ModelIdName" ColumnName="ModelIdName" />
-                <ScalarProperty Name="Customer" ColumnName="Customer" />
-                <ScalarProperty Name="Purchased" ColumnName="Purchased" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="ModelName" ColumnName="ModelName" />
-                <ScalarProperty Name="StyleTrim" ColumnName="StyleTrim" />
-                <ScalarProperty Name="StyleId" ColumnName="StyleId" />
+                <ScalarProperty Name="DatePurchased" ColumnName="DatePurchased" />
                 <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="ModelIdName" ColumnName="ModelIdName" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="Purchased" ColumnName="Purchased" />
+                <ScalarProperty Name="StyleId" ColumnName="StyleId" />
+                <ScalarProperty Name="StyleTrim" ColumnName="StyleTrim" />
+                <ScalarProperty Name="ModelName" ColumnName="ModelName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

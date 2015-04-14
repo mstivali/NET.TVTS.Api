@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="customer.cs">
+      <DependentUpon>TvtsDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="maintenance.cs">
+      <DependentUpon>TvtsDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TvtsDataModel.Context.cs">
       <AutoGen>True</AutoGen>

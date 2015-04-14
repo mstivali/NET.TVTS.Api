@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
 using CEN4020.TVTS.Api.Models;
+using CEN4020.TVTS.Infrastructure;
 using CEN4020.TVTS.Services;
 using System.Web.Http.Cors;
 
@@ -102,6 +103,28 @@ namespace CEN4020.TVTS.Web.Controllers
             var vehiclesList = inventoryService.GetInventory();
 
             return Ok(vehiclesList);
+        }
+
+        [HttpPost]
+        [Route("api/customer/save")]
+        public IHttpActionResult RegisterCustomer([FromBody] CustomerModel customer)
+        {
+            var customerService = new CustomerService();
+
+            customerService.AddNewCustomer(customer);
+
+            return Ok();
+        }
+
+        [HttpGet]
+        [Route("api/customers")]
+        public IHttpActionResult GetCustomers()
+        {
+            var customerService = new CustomerService();
+
+            var customers = customerService.GetCustomersList();
+
+            return Ok(customers);
         }
 
     }

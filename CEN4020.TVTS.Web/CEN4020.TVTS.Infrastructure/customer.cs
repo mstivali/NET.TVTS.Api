@@ -12,16 +12,12 @@ namespace CEN4020.TVTS.Infrastructure
     using System;
     using System.Collections.Generic;
     
-    public partial class vehicle
+    public partial class customer
     {
         public System.Guid Id { get; set; }
-        public string ModelName { get; set; }
-        public string StyleTrim { get; set; }
-        public string StyleId { get; set; }
-        public int Purchased { get; set; }
-        public Nullable<System.Guid> CustomerId { get; set; }
-        public string ModelIdName { get; set; }
-        public string Color { get; set; }
-        public Nullable<System.DateTime> DatePurchased { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
     }
 }
