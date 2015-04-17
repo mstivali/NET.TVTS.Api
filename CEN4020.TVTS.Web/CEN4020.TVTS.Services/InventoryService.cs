@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Configuration;
 using CEN4020.TVTS.Api.Models;
 using CEN4020.TVTS.Infrastructure;
 using Newtonsoft.Json;
@@ -39,13 +40,32 @@ namespace CEN4020.TVTS.Services
 
             using (var context = new TvtsDataEntities())
             {
-                var responseEntity = context.vehicles.ToList();
+                var responseEntity = context.vehicles.Where(x => x.Purchased != 1).ToList();
 
                 response = responseEntity;
             }
 
             return response;
         }
+
+        public bool MarkInventoryPurchased(Guid customerId, Guid inventoryId)
+        {
+            using (var context = new TvtsDataEntities())
+            {
+                var responseEntity = context.vehicles.SingleOrDefault(x => x.Id.Equals(inventoryId));
+
+                if (responseEntity == null) return false;
+
+                responseEntity.CustomerId = customerId;
+                responseEntity.DatePurchased = DateTime.Now;
+                responseEntity.Purchased = 1;
+
+                context.SaveChangesAsync();
+
+                return true;
+            }           
+        }
+
 
         private static byte[] ObjectToByteArray(object obj)
         {

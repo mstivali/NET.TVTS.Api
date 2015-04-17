@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
@@ -125,6 +126,18 @@ namespace CEN4020.TVTS.Web.Controllers
             var customers = customerService.GetCustomersList();
 
             return Ok(customers);
+        }
+
+        [HttpPut]
+        [Route("api/vehicle/purchase")]
+        public IHttpActionResult PurchaseVehicle([FromBody] PurchaseRequestModel purchaseRequestModel)
+        {
+            var inventoryService = new InventoryService();
+
+            var success = inventoryService.MarkInventoryPurchased(purchaseRequestModel.CustomerId,
+                purchaseRequestModel.InventoryId);
+
+            return Ok();
         }
 
     }

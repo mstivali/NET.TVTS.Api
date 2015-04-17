@@ -58,6 +58,7 @@
     <Compile Include="CustomerModel.cs" />
     <Compile Include="InventoryOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseRequestModel.cs" />
     <Compile Include="StyleDetailsModel.cs" />
     <Compile Include="StylesModel.cs" />
     <Compile Include="VehicleSpecsModel.cs" />
