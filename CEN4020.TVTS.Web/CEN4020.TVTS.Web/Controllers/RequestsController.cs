@@ -146,7 +146,7 @@ namespace CEN4020.TVTS.Web.Controllers
         {
             var customerService = new CustomerService();
 
-            var customerRecords = customerService.GetCustomerPurchaseRecords(new Guid("c7e1b893-21a4-46d1-8dcc-e3d4e9d28b0d"));
+            var customerRecords = customerService.GetCustomerPurchaseRecords(customerId);
 
             return Ok(customerRecords);
         }
