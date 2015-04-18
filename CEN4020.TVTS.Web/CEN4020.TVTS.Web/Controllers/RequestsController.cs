@@ -140,5 +140,15 @@ namespace CEN4020.TVTS.Web.Controllers
             return Ok();
         }
 
+        [HttpGet]
+        [Route("api/customer/purchase-records")]
+        public IHttpActionResult GetCustomerPurchaseRecords([FromUri] Guid customerId)
+        {
+            var customerService = new CustomerService();
+
+            var customerRecords = customerService.GetCustomerPurchaseRecords(new Guid("c7e1b893-21a4-46d1-8dcc-e3d4e9d28b0d"));
+
+            return Ok(customerRecords);
+        }
     }
 }

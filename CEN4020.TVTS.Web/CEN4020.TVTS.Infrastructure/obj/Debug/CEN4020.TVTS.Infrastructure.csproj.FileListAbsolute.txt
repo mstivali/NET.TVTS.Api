@@ -50,3 +50,4 @@ C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infra
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.dll
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.pdb
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache
