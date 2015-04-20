@@ -48,6 +48,7 @@ C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domai
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.pdb
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.csprojResolveAssemblyReference.cache
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Debug\CEN4020.TVTS.Domain.dll.config
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Debug\CEN4020.TVTS.Domain.dll
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Debug\CEN4020.TVTS.Domain.pdb
@@ -59,5 +60,3 @@ C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domai
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.dll
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.pdb
-C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.csprojResolveAssemblyReference.cache
-C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Domain\obj\Debug\CEN4020.TVTS.Domain.csprojResolveAssemblyReference.cache

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Linq;
-using System.Threading.Tasks;
-using System.Web.Configuration;
 using CEN4020.TVTS.Api.Models;
 using CEN4020.TVTS.Infrastructure;
 

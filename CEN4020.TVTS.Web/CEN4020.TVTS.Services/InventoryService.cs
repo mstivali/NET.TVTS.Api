@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Remoting.Contexts;
 using System.Text;
-using System.Threading.Tasks;
-using System.Web.Configuration;
 using CEN4020.TVTS.Api.Models;
 using CEN4020.TVTS.Infrastructure;
 using Newtonsoft.Json;
@@ -64,6 +60,19 @@ namespace CEN4020.TVTS.Services
 
                 return true;
             }           
+        }
+
+        public bool DeleteVehicle(Guid inventoryId)
+        {
+            using (var context = new TvtsDataEntities())
+            {
+                var vehicleEntity = context.vehicles.SingleOrDefault(x => x.Id.Equals(inventoryId));
+                if (vehicleEntity == null) return false;
+                context.vehicles.Remove(vehicleEntity);
+                context.SaveChangesAsync();
+            }
+
+            return true;
         }
 
 

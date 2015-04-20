@@ -38,6 +38,7 @@ C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infra
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.dll
 C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.pdb
+C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\CEN4020.TVTS.Infrastructure.dll.config
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\CEN4020.TVTS.Infrastructure.dll
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\bin\Debug\CEN4020.TVTS.Infrastructure.pdb
@@ -50,4 +51,3 @@ C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infra
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.dll
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.pdb
 C:\Users\user594\Desktop\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache
-C:\Users\Owner\Documents\GitHub\NET.TVTS.Api\CEN4020.TVTS.Web\CEN4020.TVTS.Infrastructure\obj\Debug\CEN4020.TVTS.Infrastructure.csprojResolveAssemblyReference.cache

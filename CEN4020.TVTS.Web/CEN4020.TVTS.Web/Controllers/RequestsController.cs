@@ -150,5 +150,16 @@ namespace CEN4020.TVTS.Web.Controllers
 
             return Ok(customerRecords);
         }
+
+        [HttpDelete]
+        [Route("api/vehicle/delete")]
+        public IHttpActionResult DeleteInventoryItem([FromUri] Guid inventoryId)
+        {
+            var vehicleService = new InventoryService();
+
+            var success = vehicleService.DeleteVehicle(inventoryId);
+
+            return Ok();
+        }
     }
 }
