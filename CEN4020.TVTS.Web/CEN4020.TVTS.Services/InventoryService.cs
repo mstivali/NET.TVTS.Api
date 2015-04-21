@@ -75,6 +75,20 @@ namespace CEN4020.TVTS.Services
             return true;
         }
 
+        public dynamic GetCarsSold()
+        {
+            dynamic response;
+
+            using (var context = new TvtsDataEntities())
+            {
+                var responseEntity = context.vehicles.Where(x => x.Purchased == 1).ToList();
+
+                response = responseEntity;
+            }
+
+            return response;
+        }
+
 
         private static byte[] ObjectToByteArray(object obj)
         {

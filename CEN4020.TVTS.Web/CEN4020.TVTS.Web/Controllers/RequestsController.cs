@@ -106,6 +106,17 @@ namespace CEN4020.TVTS.Web.Controllers
             return Ok(vehiclesList);
         }
 
+        [HttpGet]
+        [Route("api/vehicles/sold")]
+        public IHttpActionResult GetVehiclesSold()
+        {
+            var inventoryService = new InventoryService();
+
+            var vehiclesList = inventoryService.GetCarsSold();
+
+            return Ok(vehiclesList);
+        }
+
         [HttpPost]
         [Route("api/customer/save")]
         public IHttpActionResult RegisterCustomer([FromBody] CustomerModel customer)
@@ -160,6 +171,18 @@ namespace CEN4020.TVTS.Web.Controllers
             var success = vehicleService.DeleteVehicle(inventoryId);
 
             return Ok();
+        }
+
+        [HttpGet]
+        [Route("api/maintenance/report")]
+        public async Task<IHttpActionResult> GetMaintenaceReport([FromUri] string modelId)
+        {
+            var edmundsService = new EdmundsService();
+
+            var maintanceReport = await edmundsService.GetScheduledMaintanceData(modelId);
+
+            return Ok(maintanceReport);
+
         }
     }
 }

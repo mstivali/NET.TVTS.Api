@@ -18,11 +18,10 @@ namespace CEN4020.TVTS.Web.Controllers
 
         public async Task<ActionResult> Models()
         {
-            //var test = new InventoryService();
-
-            //test.AddVehicleToInventory();
 
             var edmundsService = new EdmundsService();
+
+            //var test = await edmundsService.GetScheduledMaintanceData("Toyota_4Runner");
             var toyotaSedanModels = await edmundsService.GetEdmundsModelsData();
 
             var carModelsModel = new CarModelsModel()

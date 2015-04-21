@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using CEN4020.TVTS.Domain.CarModels;
+using CEN4020.TVTS.Domain.Maintenance;
 using CEN4020.TVTS.Domain.StyleDetails.Engine;
 using CEN4020.TVTS.Domain.StyleDetails.Equipment;
 using CEN4020.TVTS.Domain.StyleDetails.Transmission;
@@ -128,6 +129,39 @@ namespace CEN4020.TVTS.Services
             var responseContent = await response.EnsureSuccessStatusCode().Content.ReadAsStringAsync();
 
             return JsonConvert.DeserializeObject<EquipmentDetail>(responseContent);
+        }
+
+        public async Task<MaintenanceReport> GetScheduledMaintanceData(string modelId)
+        {
+            var modelYearId = await GetModelYearIdWithModelId(modelId);
+
+            const string baseUri = "https://api.edmunds.com/v1/api/maintenance/actionrepository/findbymodelyearid";
+
+            var builder = new UriBuilder(baseUri);
+            var query = HttpUtility.ParseQueryString(builder.Query);
+            query["modelyearid"] = modelYearId;
+            query["fmt"] = "json";
+            query["api_key"] = ApiKey;
+            builder.Query = query.ToString();
+            var uri = builder.ToString();
+            var httpClient = new HttpClient();
+
+            var response = await httpClient.GetAsync(uri);
+
+            var responseContent = await response.EnsureSuccessStatusCode().Content.ReadAsStringAsync();
+
+            return JsonConvert.DeserializeObject<MaintenanceReport>(responseContent);
+        }
+
+        private async Task<string> GetModelYearIdWithModelId(string modelId)
+        {
+            var modelsData = await GetEdmundsModelsData();
+
+            var selectedModel = modelsData.Models.SingleOrDefault(x => x.Id.Equals(modelId));
+
+            if (selectedModel == null) return null;
+
+            return selectedModel.Years.Select(x => x.Id).FirstOrDefault().ToString();
         }
     }
 }
